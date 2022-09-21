@@ -7,3 +7,33 @@ header nav {
     width: 50%;
     text-align: center;
 }
+
+/* Footer */
+.Footer {
+    display: grid;
+    height: auto;
+    
+    gap: 5px;
+    grid-template-columns:repeat(3, 2fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.social {
+    height: 7vh;
+    width: 7vh;
+}
+.divFooter {
+    text-align:end;
+    grid-column: 1/4;
+}
+.divCopy {
+    grid-column: 2/3;
+    text-align: center;
+}
+.logoFooter {
+    text-align: start;
+    grid-column: 1/1;
+}
+.logoFooter img {
+    height: 15vh;
+    width: 20vh;
+}
