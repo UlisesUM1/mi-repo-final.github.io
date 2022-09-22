@@ -7,6 +7,10 @@
     <title>Master Plast</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 </head>
 <body>
     <div class="p-3 mb-2 bg-danger text-white">
@@ -31,10 +35,21 @@
                 </div>
             </nav>
         </header>
-        <main>
-            <h1>Bienvenidos al sitio web de Master Plast</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, reprehenderit minima. Odit consequuntur accusamus suscipit ratione accusantium minus cum commodi quisquam eum illum expedita mollitia reprehenderit sapiente ducimus, soluta dicta.</p> 
+        <main class="grid-body">
+            <h1 >Master Plast</h1>
+            <h2 class="animate__animated animate__heartBeat h2__1">Informacion acerca de nuestra historia</h2>
+
+            <p class="p__1">Master Plast surge allá por el año 1989 de la mano de su fundador el Sr. Angel Eduardo Muller. Fue su meta transformar una idea y un sueño, en una fábrica de Polietileno y Envases Flexibles para atender a otras industrias que requirieran packaging.</p>
+
+            <a class="info__1" href="./pages/nosotros.html">Conoce mas sobre nosotros</a>
+
+            <h2 class="h2__2">Ubicaciones</h2>
+            <p class="p__2">Los primeros pasos se dieron en un pequeño galpón junto a la vivienda familiar en calle Lopez Jordan y Marchesse. Luego de años de trabajo y esfuerzo de todos los sectores de la empresa desde junio de 2004 se pudo establecer la fabrica en un predio del Parque Industrial de Paraná. Master Plast posee sus oficinas de administración y plana industrial en calle Salellas 1708 en el parque Industrial General Belgrano de la ciudad de Paraná. El predio comprende una superficie de unos 4000 m², de los cuales 650 m² se hallan cubiertos mediante dos naves parabólicas donde se localiza todo el equipamiento para llevar a cabo la actividad industrial.</p>
+            <img src="./img/ilustracion (1).jpg" class="rounded float-start img__1in" alt="comienzos">
+            <img src="./img/ilustracion (1).jpg" class="rounded float-center img__2in" alt="actualidad">
+            <a class="info__2" href="./pages/contacto.html">Ubicacion actual</a>
         </main>
+
     </div>
 
 
@@ -49,17 +64,19 @@
 
 
 
-    <footer class="p-3 mb-2 bg-dark text-white Footer">
-        <div class="divFooter">
-            <a href="https://wa.me/+5493434708020?Text=Deseo%20saber%20mas" target="_blank"><img class="social" src="./img/whatsapp.png" alt="icono-wsp"></a>
-            <a href="https://www.instagram.com/masterplastparana/" target="_blank"><img class="social" src="./img/instagram.png" alt="icono-ig"></a>
-            <a href="https://www.facebook.com/masterplastparana/" target="_blank"><img class="social" src="./img/facebook.png" alt="icono-facebook"></a>
-            <a href="https://www.youtube.com/user/masterplastparana/featured" target="_blank"><img class="social" src="./img/youtube.png" alt="icono-youtube"></a>
+    <footer class="p-3 mb-2 bg-dark text-white container overflow-hidden">
+        <div class="row gy-5">
+            <div class="col-6">
+                <a href="https://wa.me/+5493434708020?Text=Deseo%20saber%20mas" target="_blank"><img class="social" src="./img/whatsapp.png" alt="icono-wsp"></a>
+                <a href="https://www.instagram.com/masterplastparana/" target="_blank"><img class="social" src="./img/instagram.png" alt="icono-ig"></a>
+                <a href="https://www.facebook.com/masterplastparana/" target="_blank"><img class="social" src="./img/facebook.png" alt="icono-facebook"></a>
+                <a href="https://www.youtube.com/user/masterplastparana/featured" target="_blank"><img class="social" src="./img/youtube.png" alt="icono-youtube"></a>
+            </div>
         </div>
-        <div class="divCopy">
+        <div class="col-6 divCopy">
             <p>&copy;Todos los derechos reservados-2022</p> 
         </div>
-        <div class="logoFooter">
+        <div class="logoFooter col-6">
             <img src="./img/logofooter.png" alt="logo-en-footer">
         </div>     
     </footer>
