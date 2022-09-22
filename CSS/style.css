@@ -7,7 +7,7 @@ header nav {
     width: 50%;
     text-align: center;
 }
-/* Body */
+/* Body  *Inicio* */
 .grid-body {
     display: grid;
     height: auto;
@@ -39,21 +39,17 @@ header nav {
 .info__2 {
     grid-column: 1;
 }
-
-
+/* Body *Contacto*  */
+.grid-main {
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows:repeat(2, 2fr);
+}
 
 
 /* Footer */
-/* 
-.Footer {
-    display: grid;
-    height: auto;
-    
-    gap: 5px;
-    grid-template-columns:repeat(3, 2fr);
-    grid-template-rows: repeat(3, 1fr);
-}
-*/
+
 
 .social {
     height: 6vh;
