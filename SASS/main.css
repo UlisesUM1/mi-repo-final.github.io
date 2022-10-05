@@ -1,0 +1,24 @@
+@media screen and (min-width: 768px) {
+  .carous-1 {
+    width: 100%;
+    height: 70%;
+  }
+}
+.carous-1 {
+  width: 70%;
+  height: 70%;
+  padding: 2%;
+}
+
+.footer {
+  background-color: #212529;
+  padding: 2%;
+}
+.footer .row .col-6 {
+  text-align: start;
+}
+
+.divCopy {
+  color: wheat;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
