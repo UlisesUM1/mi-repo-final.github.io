@@ -1,35 +1,32 @@
 
-//responsive
-$responsive: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-);
+// Body index
+.carmaq-1 {
+    width: 60%;
 
-// Body all pages
-
-  .carous-1 {
-    width: 70%;
-    height: 70%;
-    padding: 2%;
-    text-align: center;
-  }
-
-// Footer
-
-.footer {
-    background-color: #212529;
-    padding: 2%;
-    .row {
-        .col-6 {
-            text-align: start;
-        }
-    }
 }
-.divCopy {
-    color: wheat;
-    text-align: center;
+$ColorBlack:  #212529;
+@import 'nosotros';
+@import 'footer';
+
+
+// Body presupuesto
+form {
+        background-color: $ColorBlack;
+        width: 700px;
+        padding: 20px 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+}
+@media (max-width:700px){
+    form {
+        width: 100%;
+    }
 }
