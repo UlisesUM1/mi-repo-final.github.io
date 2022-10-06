@@ -43,4 +43,8 @@ input {
   form {
     width: 100%;
   }
+}
+.h2__pr {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }/*# sourceMappingURL=main.css.map */
